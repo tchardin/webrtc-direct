@@ -1,0 +1,65 @@
+{
+  "name": "react-blog-starter",
+  "version": "1.0.0",
+  "description": "React and TypeScript blog example project",
+  "keywords": [
+    "typescript",
+    "react",
+    "starter"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "cids": "^1.1.6",
+    "date-fns": "2.16.1",
+    "debug": "^4.3.2",
+    "excerpts": "0.0.3",
+    "history": "^5.0.0",
+    "ipld-dag-cbor": "^1.0.0",
+    "it-length-prefixed": "^5.0.2",
+    "it-pipe": "^1.1.0",
+    "libp2p": "^0.31.5",
+    "libp2p-mdns": "^0.16.0",
+    "libp2p-mplex": "^0.10.3",
+    "libp2p-noise": "^3.0.0",
+    "libp2p-webrtc-direct": "^0.6.0",
+    "libp2p-websockets": "^0.15.7",
+    "marked": "1.2.7",
+    "multiaddr": "^9.0.1",
+    "peer-id": "^0.14.8",
+    "protons": "^2.0.1",
+    "react": "0.0.0-experimental-3310209d0",
+    "react-dom": "0.0.0-experimental-3310209d0",
+    "react-dropzone": "^11.3.2",
+    "react-error-boundary": "^3.1.0",
+    "react-router-dom": "6.0.0-beta.0",
+    "react-scripts": "3.4.1",
+    "rehype-katex": "^4.0.0",
+    "rehype-stringify": "^8.0.0",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
+    "remark-math": "^4.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-rehype": "^8.0.0",
+    "sanitize-html": "2.3.0",
+    "uint8arrays": "^2.1.5",
+    "unified": "^9.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "prettier": "^2.3.2",
+    "typescript": "3.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
